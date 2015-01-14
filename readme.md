@@ -1,5 +1,5 @@
 # How to run
-`<path-to-node>` -out out.js --diagnostics src/services/typescriptServices.ts
+`<path-to-node>` tsc.js -out out.js --diagnostics src/services/typescriptServices.ts
 
 # Local results
 /home/v2m/.nvm/v0.10.35/bin/node
