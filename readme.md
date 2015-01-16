@@ -1,24 +1,25 @@
 # How to run
 `<path-to-node>` tsc.js -out out.js --diagnostics src/services/typescriptServices.ts
 
-# Local results
+# Local results (no disk I\O in emit)
 /home/v2m/.nvm/v0.10.35/bin/node
-- Parse time: 	AVG:	0.884	STDDEV:	0.0174356	BEST:	0.86	WORST:	0.91
-- Bind time:	AVG:	0.32	STDDEV:	0.0109545	BEST:	0.31	WORST:	0.34
-- Check time:	AVG:	1.618	STDDEV:	0.0462169	BEST:	1.55	WORST:	1.69
-- Emit time:	AVG:	0.45	STDDEV:	0.0109545	BEST:	0.43	WORST:	0.46
-- (AVG) Total time:	3.272
+- Parse time: 	AVG:	0.866	STDDEV:	0.0048990	BEST:	0.86	WORST:	0.87
+- Bind time:	AVG:	0.312	STDDEV:	0.0040000	BEST:	0.31	WORST:	0.32
+- Check time:	AVG:	1.552	STDDEV:	0.0263818	BEST:	1.52	WORST:	1.6
+- Emit time:	AVG:	0.4	STDDEV:	0.0063246	BEST:	0.39	WORST:	0.41
+- (AVG) Total time:	3.13
 
 /home/v2m/.nvm/v0.11.14/bin/node
-- Parse time: 	AVG:	0.92	STDDEV:	0.0154919	BEST:	0.91	WORST:	0.95
-- Bind time:	AVG:	0.436	STDDEV:	0.0080000	BEST:	0.43	WORST:	0.45
-- Check time:	AVG:	1.68	STDDEV:	0.0433590	BEST:	1.64	WORST:	1.76
-- Emit time:	AVG:	0.516	STDDEV:	0.0080000	BEST:	0.51	WORST:	0.53
-- (AVG) Total time:	3.552
+- Parse time: 	AVG:	0.952	STDDEV:	0.0318748	BEST:	0.91	WORST:	0.99
+- Bind time:	AVG:	0.434	STDDEV:	0.0101980	BEST:	0.42	WORST:	0.45
+- Check time:	AVG:	1.634	STDDEV:	0.0257682	BEST:	1.6	WORST:	1.67
+- Emit time:	AVG:	0.494	STDDEV:	0.0080000	BEST:	0.48	WORST:	0.5
+- (AVG) Total time:	3.514
 
 /home/v2m/code/iojs-v1.0.1-linux-x64/bin/node
-- Parse time: 	AVG:	0.812	STDDEV:	0.0495580	BEST:	0.78	WORST:	0.91
-- Bind time:	AVG:	0.35	STDDEV:	0.0063246	BEST:	0.34	WORST:	0.36
-- Check time:	AVG:	2.164	STDDEV:	0.0634350	BEST:	2.08	WORST:	2.26
-- Emit time:	AVG:	0.636	STDDEV:	0.0149666	BEST:	0.61	WORST:	0.65
-- (AVG) Total time:	3.962
+- Parse time: 	AVG:	0.778	STDDEV:	0.0074833	BEST:	0.77	WORST:	0.79
+- Bind time:	AVG:	0.346	STDDEV:	0.0048990	BEST:	0.34	WORST:	0.35
+- Check time:	AVG:	2.088	STDDEV:	0.0116619	BEST:	2.07	WORST:	2.1
+- Emit time:	AVG:	0.596	STDDEV:	0.0135647	BEST:	0.58	WORST:	0.61
+- (AVG) Total time:	3.808
+	
